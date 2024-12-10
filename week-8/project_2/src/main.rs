@@ -11,7 +11,7 @@ fn main() {
     io::stdin().read_line(&mut input1).expect("failed response");
     let dev_num:u32 = input1.trim().parse().expect("failed to response");
 
-    let mut developer:Vec<(String,f32)> ::new();
+    let mut developer:Vec<(String,f32)> vec::new();
     for x in 0..dev_num{
     let mut input2 = String::new();
     let mut input3 = String::new();

@@ -9,7 +9,7 @@ fn main() {
     let teacher = vec!["Placement Teacher", "Classroom Teacher", "Senior Teacher", "Leading Teacher", "Deputy Principal", "Principal"];
 
     let mut input1 = String::new();
-    println!("How many entries would you like to make?");
+    println!("How many response are you inputing?");
     io::stdin().read_line(&mut input1).expect("Invalid Response");
     let entry_num:u32 = input1.trim().parse().expect("Invalid Response");
 
